@@ -1,0 +1,121 @@
+html{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-size: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.heading-text{
+    color: darkviolet;
+}
+.landing-page-section{
+    display: flex;
+    padding: 40px 10px;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    height: 100%;
+    min-height: 100vh;
+}
+.landing-page-section > h2{
+    text-align: center;
+    font-size: 2rem;
+    margin: 0px;
+}
+.landing-page-section > p{
+    max-width: 520px;
+    font-size: 1rem;
+    text-align: center;
+}
+.price-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 5px;
+}
+.pricing-card{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 10px;
+    width: 100%;
+    max-width: 250px;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: white;
+}
+.pricing-card__price{
+    background-color: lightcoral;
+    width: 100%;
+    min-height: 20px;
+    padding: 10px 5px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-weight: 1000;
+    flex-wrap: wrap;
+}
+.pricing-card__price:hover{
+    border: 1px solid lightcoral;
+    transition: border-width 0.2s linear;
+}
+.pricing-card > h3{
+    margin: 0px;
+    text-align: left;
+    font-weight: 1000;
+    font-size: 1rem;
+}
+.pricing-card > .divider{
+    border: 1px solid white;
+}
+.pricing-card{
+    padding: 20px;
+    border: 1px solid blue;
+}
+.pricing-card > .enroll{
+    display: block;
+    cursor: pointer;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 10px;
+    border-radius: 10px;
+    background-color: lightsteelblue;
+    min-height: 20px;
+    padding: 10px 5px;
+    width: 100%;
+    border: 0px solid blueviolet;
+}
+.pricing-card > .enroll:hover{
+    border: 1px solid blueviolet;
+    transition: border-width 0.2s linear;
+}
+.pricing-card > .enroll{
+    background: linear-gradient(90deg,#605DFF,#AD63F6 50%,#AD63F6 50%,#605DFF 80%,#5DA8FF 100%);
+    background-size: 200% 200%;
+    background-position: 0% 0%;
+    transition: background-position 1s;
+    color: white;
+}
+.pricing-card > ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+.pricing-card > ul > li{
+    position: relative;
+    font-weight: 500;
+    font-size: 0.5rem;
+}
